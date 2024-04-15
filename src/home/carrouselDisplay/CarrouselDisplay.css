@@ -1,0 +1,136 @@
+.carrousel-display{
+    margin-top: 5px;
+    display: flex;
+}
+
+.carrousel-display-arrow{
+    align-self: center;
+    width: 70px;
+    height: 70px;
+}
+
+.carousel-container {
+    display: flex;
+   
+    transition: transform 0.5s ease; /* Add transition property */
+  }
+  
+  .carousel-item {
+    display: flex;
+    width: 50vw;
+    flex: 0 0 100%;
+   
+  }
+
+.carrousel-display-arrow:hover{
+    cursor: pointer;
+}
+
+.carrousel-display-content{
+    display: flex;
+    width: 89vw;
+}
+.carrousel-display-content-info{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carrousel-display-content-info h1 {
+    font-family: 'ostSans';
+    color: rgb(230, 199, 29);
+}
+
+.carrousel-display-content-info p {
+    width: 80%;
+    font-size: 20px;
+    font-family: 'dosis';
+    
+}
+
+.carrousel-display-content-info-price{
+    font-size: 25px;
+    font-family: 'dosis';
+    color: gold;
+
+}
+
+.carrousel-display-content-info button{
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'dosis';
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    transition: all 0.3s ease-in;
+}
+
+.carrousel-display-content-info button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgb(63, 63, 63);
+
+    color: black;
+}
+
+.carrousel-display-content-info-sub{
+    font-size: 15px;
+    font-family: 'ostSans';
+}
+
+.carrousel-display-content img{
+    width: 900px;
+    height: 450px; 
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .carrousel-display{
+        overflow-x: hidden;
+    }
+    
+    .carousel-container {
+        max-width: 100vw;
+        
+    }
+    .carrousel-display-arrow{
+        width: 35px;
+        height: 35px;
+        align-self: center;
+        
+    }
+    
+    .carrousel-display-content {
+        max-width: 80vw;
+        flex-direction: column;
+    }
+    .carrousel-display-content img{
+
+       
+        max-width: 85vw;
+        height: 350px;
+    }
+
+    .carrousel-display-content-info h1{
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+    .carrousel-display-content-info p{
+        font-size: 18px;
+    }
+
+    .carrousel-display-content-info-price{
+        font-size: 25px;
+    }
+
+    .carrousel-display-content-info-sub{
+        font-size: 12px;
+    }
+
+}

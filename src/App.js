@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Home from "./home/Home";
+import MenuBar from "./menuBar/MenuBar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ProductDisplay from "./home/productsDisplay/ProductDisplay";
+import ProductsDisplayPage from "./productsDisplayPage/ProductsDisplayPage";
+import { shirtsData } from "./assets/dataBASE/shirts";
+import IndividualProduct from "./individualProduct/IndividualProduct";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <MenuBar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route
+          exact
+          path="/productsDisplay"
+          element={<ProductsDisplayPage products={shirtsData} />}
+        />
+        <Route
+          exact
+          path="/shirt/1"
+          element={<IndividualProduct product={shirtsData[0]} />}
+        />
+        <Route
+          exact
+          path="/shirt/2"
+          element={<IndividualProduct product={shirtsData[1]} />}
+        />
+      </Routes>
+    </>
   );
 }
 

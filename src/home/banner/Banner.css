@@ -1,0 +1,17 @@
+.banner-page{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.banner-page img{
+    width: 80vw;
+    height: 400px;
+}
+
+@media only screen and (max-width: 800px) {
+    .banner-page img {
+        width: 90vw;
+        height: 350px;
+    }
+}

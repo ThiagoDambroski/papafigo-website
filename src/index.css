@@ -1,13 +1,42 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(27, 27, 27);
+  color: white;
+  margin: 0px;
+  overflow-x: hidden;
+  
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: 'azonix';
+  src: url('assets/fonts/azonix/Azonix.otf');
+}
+
+@font-face {
+  font-family: 'antiPasto';
+  src: url('assets/fonts/antipasto/AntipastoPro-Medium_trial.ttf');
+}
+
+
+@font-face {
+  font-family: 'dosis';
+  src: url('assets/fonts/dosis/Dosis-Book.ttf');
+}
+
+@font-face {
+  font-family: 'ubuntu';
+  src: url('assets/fonts/ubuntu-font-family-0.80/Ubuntu-C.ttf');
+}
+
+@font-face {
+  font-family: 'ostSans';
+  src: url('assets/fonts/sans/OstrichSans-Black.otf');
+}
+
+
+@media only screen and (max-width: 800px) {
+  body{
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
 }

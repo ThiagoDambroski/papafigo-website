@@ -1,0 +1,48 @@
+.menu-bar{
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    height: 60px;
+    background-color: rgb(20, 19, 19)
+}
+
+.menu-bar a{
+    text-decoration: none;
+    color: inherit; 
+    
+}
+
+.menu-bar-logo{
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-family: 'azonix';
+}
+
+.menu-bar-items{
+    margin-left: 20px;
+   
+    display: flex;
+
+}
+
+.menu-bar-items p {
+    margin-left: 8px;
+    font-family: 'dosis';
+}
+
+.menu-bar-items p:hover{
+    cursor: pointer;
+    border-bottom: 1PX solid white;
+}
+
+@media only screen and (max-width: 800px) {
+    .menu-bar-logo{
+        font-size: 15px;
+    }
+
+    .menu-bar-items p {
+        font-size: 14px;
+    }
+}

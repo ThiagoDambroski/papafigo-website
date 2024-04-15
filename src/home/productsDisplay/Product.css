@@ -1,0 +1,94 @@
+.product-page {
+    padding-bottom: 25px;
+    min-height: fit-content;
+    display: flex;
+    flex-direction: column;
+    /*background-color: #333232;*/
+}
+
+.product-page-title {
+    display: flex;
+    justify-content: center;
+}
+
+.product-page-title h1{
+    
+    font-family: 'ubuntu'
+}
+
+
+.product-display{
+    height: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x:hidden ;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    margin: 10px;
+
+}
+.product-display:hover{
+    cursor: grab;
+}
+.product-display:active{
+    cursor: grabbing;
+}
+
+
+
+
+.product-container {
+    flex: 0 0 auto; /* Prevent items from shrinking */
+
+    border-radius: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    user-select: none;
+
+}
+
+
+.product-container img{
+    
+    width: 320px;
+    height: 320px;
+    
+    border-radius: 0px;
+    user-drag: none;
+     user-select: none;
+}
+.product-container img:hover{
+    user-drag: none;
+    user-select: none;
+}
+
+.product-container a {
+    text-decoration: none;
+    
+}
+
+.product-container a:visited {
+    text-decoration: none;
+    color: white;
+}
+.product-container-description{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.product-container-description-name{
+    font-size: 20px;
+    font-family: 'dosis';
+}
+
+.product-container-description-price{
+    color: gold;
+    margin-top: 3px;
+    font-size: 17px;
+}
+
