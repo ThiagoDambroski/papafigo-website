@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/papafigo-website/static/css/main.351b56f3.css",
+    "main.js": "/papafigo-website/static/js/main.b8e09832.js",
+    "static/media/rockBanner.jpg": "/papafigo-website/static/media/rockBanner.c02198b077c15b5551fa.jpg",
+    "static/media/banner.jpg": "/papafigo-website/static/media/banner.c7e86f032de0a3ff1990.jpg",
+    "static/media/Ubuntu-C.ttf": "/papafigo-website/static/media/Ubuntu-C.a814ff651cd501adc77c.ttf",
+    "static/media/guns.png": "/papafigo-website/static/media/guns.51025cc97a8626a1a1e7.png",
+    "static/media/AntipastoPro-Medium_trial.ttf": "/papafigo-website/static/media/AntipastoPro-Medium_trial.9afc40523ab398c75269.ttf",
+    "static/media/metalica.jpg": "/papafigo-website/static/media/metalica.e4829b5c1e876b18a271.jpg",
+    "static/media/Dosis-Book.ttf": "/papafigo-website/static/media/Dosis-Book.d4d759f9f74aff4a7a60.ttf",
+    "static/media/bands.jpeg": "/papafigo-website/static/media/bands.cdfa5f11e17800310ccb.jpeg",
+    "static/media/shorts.jpg": "/papafigo-website/static/media/shorts.ba123890cfc2f82c511b.jpg",
+    "static/media/perfume.jpg": "/papafigo-website/static/media/perfume.3efcb716f51422540eb6.jpg",
+    "static/media/pernambuco.jpg": "/papafigo-website/static/media/pernambuco.4d188783299d3e6514ab.jpg",
+    "static/media/Azonix.otf": "/papafigo-website/static/media/Azonix.9091792cb1720a8c6ea0.otf",
+    "static/media/OstrichSans-Black.otf": "/papafigo-website/static/media/OstrichSans-Black.4009267c4cf3cf9d8fe7.otf",
+    "index.html": "/papafigo-website/index.html",
+    "main.351b56f3.css.map": "/papafigo-website/static/css/main.351b56f3.css.map",
+    "main.b8e09832.js.map": "/papafigo-website/static/js/main.b8e09832.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.351b56f3.css",
+    "static/js/main.b8e09832.js"
+  ]
+}
