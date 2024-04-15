@@ -31,7 +31,7 @@ function ProductDisplay() {
           scrollRef.current.scrollLeft = 0;
         }
       }
-    }, 30); // Adjust the interval as needed
+    }, 30);
 
     setAutoScrollInterval(interval);
 
