@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/papafigo-website/static/css/main.351b56f3.css",
+    "main.css": "/papafigo-website/static/css/main.28ef833e.css",
     "main.js": "/papafigo-website/static/js/main.b8e09832.js",
     "static/media/rockBanner.jpg": "/papafigo-website/static/media/rockBanner.c02198b077c15b5551fa.jpg",
     "static/media/banner.jpg": "/papafigo-website/static/media/banner.c7e86f032de0a3ff1990.jpg",
@@ -16,11 +16,11 @@
     "static/media/Azonix.otf": "/papafigo-website/static/media/Azonix.9091792cb1720a8c6ea0.otf",
     "static/media/OstrichSans-Black.otf": "/papafigo-website/static/media/OstrichSans-Black.4009267c4cf3cf9d8fe7.otf",
     "index.html": "/papafigo-website/index.html",
-    "main.351b56f3.css.map": "/papafigo-website/static/css/main.351b56f3.css.map",
+    "main.28ef833e.css.map": "/papafigo-website/static/css/main.28ef833e.css.map",
     "main.b8e09832.js.map": "/papafigo-website/static/js/main.b8e09832.js.map"
   },
   "entrypoints": [
-    "static/css/main.351b56f3.css",
+    "static/css/main.28ef833e.css",
     "static/js/main.b8e09832.js"
   ]
 }
